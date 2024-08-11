@@ -3,8 +3,12 @@
 ```bash
 cargo install cargo-ndk
 rustup target add aarch64-linux-android armv7-linux-androideabi x86_64-linux-android i686-linux-android
-ANDROID_SDK_ROOT=$HOME/.android/sdk
+
+# follow step on https://golb.n4n5.dev/android
+
 clear && rm -rf java/app/build && make
 ```
 
-<https://apilevels.com/>
+## License
+
+[MIT](./LICENSE-MIT) or [Apache-2.0](./LICENSE-APACHE)
