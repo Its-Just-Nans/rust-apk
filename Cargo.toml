@@ -52,7 +52,7 @@ eframe = { version = "0.28", default-features = false, features = [
 js-sys = "0.3.69"
 
 [lib]
-name = "eframe_template"
+name = "eframe_template_lib"
 crate_type = ["cdylib", "rlib"]
 # rlib is used for web app and native
 #cdylib is used by android-activity crate for android app

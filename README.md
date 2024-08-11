@@ -6,7 +6,7 @@ rustup target add aarch64-linux-android armv7-linux-androideabi x86_64-linux-and
 
 # follow step on https://golb.n4n5.dev/android
 
-clear && rm -rf java/app/build && make
+clear && make
 ```
 
 ## License
